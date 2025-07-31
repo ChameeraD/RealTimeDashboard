@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "Dashboard";
+
+package dashboard;
+
+// The DashboardService exposes one server-streaming method.
+service DashboardService {
+  // Subscribe tells the server which source to stream
+  // and how often. The server sends a stream of DataPoint.
+  rpc Subscribe (Subscription) returns (stream DataPoint);
+}
+
+// Subscription message carries the source identifier
+// and the desired update interval in milliseconds.
+message Subscription {
+  string source_id  = 1; // e.g. "sensor-A" or "EURUSD"
+  int32  interval_ms = 2; // server waits this long between messages
+}
+
+// DataPoint represents one timestamped value.
+message DataPoint {
+  int64  timestamp = 1; // Unix time in milliseconds
+  double value     = 2; // measurement or price
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bRCOQtgPe7EgIAsjUqX/Ex3GbbRJ+TUmyodnNLHCShE=",
+  "Source": "DashboardGrpc",
+  "BasePath": "_content/DashboardGrpc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

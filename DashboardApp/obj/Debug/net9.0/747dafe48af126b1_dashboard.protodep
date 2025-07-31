@@ -1,0 +1,2 @@
+obj/Debug/net9.0/Dashboard.cs \
+obj/Debug/net9.0/DashboardGrpc.cs: ../DashboardGrpc/Protos/dashboard.proto

@@ -1,0 +1,61 @@
+@page "/live"
+@using Dashboard
+@inject DashboardService.DashboardServiceClient Grpc
+
+<h3>Real-Time Values</h3>
+
+<button @onclick="StartStream" disabled="@isStreaming">Start</button>
+<button @onclick="StopStream"  disabled="!isStreaming">Stop</button>
+
+<p>Status: @status</p>
+
+<ul>
+  @foreach (var p in points)
+  {
+    <li>@DateTimeOffset.FromUnixTimeMilliseconds(p.Timestamp): @p.Value:F2</li>
+  }
+</ul>
+
+@code {
+  private List<DataPoint> points = new();
+  private CancellationTokenSource? cts;
+  private bool isStreaming;
+  private string status = "Idle";
+
+  private async Task StartStream()
+  {
+    isStreaming = true;
+    status      = "Connecting…";
+    cts         = new CancellationTokenSource();
+
+    var request = new Subscription { SourceId = "sensor-1", IntervalMs = 500 };
+    using var call = Grpc.Subscribe(request, cancellationToken: cts.Token);
+
+    status = "Streaming";
+    try
+    {
+      var responseStream = call.ResponseStream;
+      while (await responseStream.MoveNext(cts.Token))
+      {
+        var dp = responseStream.Current;
+        points.Add(dp);
+        if (points.Count > 100) points.RemoveAt(0);
+        StateHasChanged();  // update the UI for each new point
+      }
+    }
+    catch (OperationCanceledException)
+    {
+      // Stream was canceled by StopStream
+    }
+    finally
+    {
+      isStreaming = false;
+      status      = "Stopped";
+    }
+  }
+
+  private void StopStream()
+  {
+    cts?.Cancel();
+  }
+}
