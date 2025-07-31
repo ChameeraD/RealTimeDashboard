@@ -58,50 +58,75 @@
         public double Value { get; set; }
     }
 
+    // Automatic reconnect with exponential back-off
+    private async Task RunWithRetry(Func<CancellationToken, Task> work, CancellationToken token)
+    {
+        var delay = TimeSpan.FromSeconds(1);
+
+        while (!token.IsCancellationRequested)
+        {
+            try
+            {
+                await work(token);
+                return;
+            }
+            catch
+            {
+                await Task.Delay(delay, token);
+                delay = TimeSpan.FromSeconds(Math.Min(delay.TotalSeconds * 2, 30));
+            }
+        }
+    }
+
     private async Task StartStream()
     {
         isStreaming = true;
         status = "Connecting…";
         cts = new CancellationTokenSource();
 
-        var request = new Subscription { SourceId = "sensor-1", IntervalMs = 500 };
-        using var call = Grpc.Subscribe(request, cancellationToken: cts.Token);
-
-        status = "Streaming";
-        try
+        // Use the retry helper for robust connection
+        await RunWithRetry(async (token) =>
         {
-            var responseStream = call.ResponseStream;
-            while (await responseStream.MoveNext(cts.Token))
+            var request = new Subscription { SourceId = "sensor-1", IntervalMs = 500 };
+            using var call = Grpc.Subscribe(request, cancellationToken: token);
+
+            status = "Streaming";
+            try
             {
-                var dp = responseStream.Current;
-                points.Add(dp);
-                
-                // Add to chart data
-                chartData.Add(new ChartDataPoint
+                var responseStream = call.ResponseStream;
+                while (await responseStream.MoveNext(token))
                 {
-                    Timestamp = DateTimeOffset.FromUnixTimeMilliseconds(dp.Timestamp).DateTime,
-                    Value = dp.Value
-                });
+                    var dp = responseStream.Current;
+                    points.Add(dp);
+                    
+                    // Add to chart data
+                    chartData.Add(new ChartDataPoint
+                    {
+                        Timestamp = DateTimeOffset.FromUnixTimeMilliseconds(dp.Timestamp).DateTime,
+                        Value = dp.Value
+                    });
 
-                // Keep only last 50 points for performance
-                if (points.Count > 50)
-                {
-                    points.RemoveAt(0);
-                    chartData.RemoveAt(0);
+                    // Keep only last 50 points for performance
+                    if (points.Count > 50)
+                    {
+                        points.RemoveAt(0);
+                        chartData.RemoveAt(0);
+                    }
+
+                    StateHasChanged();
                 }
-
-                StateHasChanged();
             }
-        }
-        catch (OperationCanceledException)
-        {
-            // Stream was canceled by StopStream
-        }
-        finally
-        {
-            isStreaming = false;
-            status = "Stopped";
-        }
+            catch (OperationCanceledException)
+            {
+                // Stream was canceled by StopStream
+                throw;
+            }
+            finally
+            {
+                isStreaming = false;
+                status = "Stopped";
+            }
+        }, cts.Token);
     }
 
     private void StopStream()
