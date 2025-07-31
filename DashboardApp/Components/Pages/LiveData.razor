@@ -2,60 +2,110 @@
 @using Dashboard
 @inject DashboardService.DashboardServiceClient Grpc
 
-<h3>Real-Time Values</h3>
+<h3>Real-Time Dashboard</h3>
 
-<button @onclick="StartStream" disabled="@isStreaming">Start</button>
-<button @onclick="StopStream"  disabled="!isStreaming">Stop</button>
+<button @onclick="StartStream" disabled="@isStreaming" class="btn btn-primary me-2">Start</button>
+<button @onclick="StopStream" disabled="!isStreaming" class="btn btn-secondary">Stop</button>
 
-<p>Status: @status</p>
+<p class="mt-3">Status: <span class="badge bg-@(status == "Streaming" ? "success" : status == "Connecting…" ? "warning" : "secondary")">@status</span></p>
 
-<ul>
-  @foreach (var p in points)
-  {
-    <li>@DateTimeOffset.FromUnixTimeMilliseconds(p.Timestamp): @p.Value:F2</li>
-  }
-</ul>
+<div class="row mt-4">
+    <div class="col-md-8">
+        <SfChart @ref="chart" Title="Real-Time Data Stream">
+            <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.DateTime">
+                <ChartAxisLabelStyle Format="HH:mm:ss"></ChartAxisLabelStyle>
+            </ChartPrimaryXAxis>
+            <ChartPrimaryYAxis>
+                <ChartAxisLabelStyle Format="N2"></ChartAxisLabelStyle>
+            </ChartPrimaryYAxis>
+            <ChartSeriesCollection>
+                <ChartSeries DataSource="@chartData" XName="Timestamp" YName="Value" Type="ChartSeriesType.Line">
+                </ChartSeries>
+            </ChartSeriesCollection>
+        </SfChart>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5>Latest Values</h5>
+            </div>
+            <div class="card-body" style="max-height: 400px; overflow-y: auto;">
+                <ul class="list-group list-group-flush">
+                    @foreach (var p in points.TakeLast(10).Reverse())
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <small>@DateTimeOffset.FromUnixTimeMilliseconds(p.Timestamp).ToString("HH:mm:ss")</small>
+                            <span class="badge bg-primary rounded-pill">@p.Value.ToString("F2")</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 @code {
-  private List<DataPoint> points = new();
-  private CancellationTokenSource? cts;
-  private bool isStreaming;
-  private string status = "Idle";
+    private List<DataPoint> points = new();
+    private List<ChartDataPoint> chartData = new();
+    private CancellationTokenSource? cts;
+    private bool isStreaming;
+    private string status = "Idle";
+    private SfChart? chart;
 
-  private async Task StartStream()
-  {
-    isStreaming = true;
-    status      = "Connecting…";
-    cts         = new CancellationTokenSource();
-
-    var request = new Subscription { SourceId = "sensor-1", IntervalMs = 500 };
-    using var call = Grpc.Subscribe(request, cancellationToken: cts.Token);
-
-    status = "Streaming";
-    try
+    public class ChartDataPoint
     {
-      var responseStream = call.ResponseStream;
-      while (await responseStream.MoveNext(cts.Token))
-      {
-        var dp = responseStream.Current;
-        points.Add(dp);
-        if (points.Count > 100) points.RemoveAt(0);
-        StateHasChanged();  // update the UI for each new point
-      }
+        public DateTime Timestamp { get; set; }
+        public double Value { get; set; }
     }
-    catch (OperationCanceledException)
-    {
-      // Stream was canceled by StopStream
-    }
-    finally
-    {
-      isStreaming = false;
-      status      = "Stopped";
-    }
-  }
 
-  private void StopStream()
-  {
-    cts?.Cancel();
-  }
+    private async Task StartStream()
+    {
+        isStreaming = true;
+        status = "Connecting…";
+        cts = new CancellationTokenSource();
+
+        var request = new Subscription { SourceId = "sensor-1", IntervalMs = 500 };
+        using var call = Grpc.Subscribe(request, cancellationToken: cts.Token);
+
+        status = "Streaming";
+        try
+        {
+            var responseStream = call.ResponseStream;
+            while (await responseStream.MoveNext(cts.Token))
+            {
+                var dp = responseStream.Current;
+                points.Add(dp);
+                
+                // Add to chart data
+                chartData.Add(new ChartDataPoint
+                {
+                    Timestamp = DateTimeOffset.FromUnixTimeMilliseconds(dp.Timestamp).DateTime,
+                    Value = dp.Value
+                });
+
+                // Keep only last 50 points for performance
+                if (points.Count > 50)
+                {
+                    points.RemoveAt(0);
+                    chartData.RemoveAt(0);
+                }
+
+                StateHasChanged();
+            }
+        }
+        catch (OperationCanceledException)
+        {
+            // Stream was canceled by StopStream
+        }
+        finally
+        {
+            isStreaming = false;
+            status = "Stopped";
+        }
+    }
+
+    private void StopStream()
+    {
+        cts?.Cancel();
+    }
 }

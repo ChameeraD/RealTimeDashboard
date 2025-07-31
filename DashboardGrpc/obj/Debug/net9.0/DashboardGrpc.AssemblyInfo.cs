@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DashboardGrpc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8978f8400b59e7fb3cd015422ed601d1d1ed225c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DashboardGrpc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DashboardGrpc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

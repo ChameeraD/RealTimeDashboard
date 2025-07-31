@@ -1,6 +1,6 @@
 # Real-Time Dashboard
 
-A real-time dashboard application built with Blazor Server and gRPC server-streaming for low-latency data updates.
+A real-time dashboard application built with Blazor Server and gRPC server-streaming for low-latency data updates, featuring Syncfusion Blazor Charts for data visualization.
 
 ## Project Structure
 
@@ -9,7 +9,7 @@ RealTimeDashboard/
 ├─ DashboardApp/          # Blazor Server UI
 │  ├─ Components/
 │  │  ├─ Pages/
-│  │  │  └─ LiveData.razor  # Real-time data display
+│  │  │  └─ LiveData.razor  # Real-time data display with charts
 │  │  └─ Layout/
 │  └─ Program.cs
 ├─ DashboardGrpc/         # gRPC backend service
@@ -26,12 +26,14 @@ RealTimeDashboard/
 - **Real-time streaming**: Server pushes data updates to browser via gRPC
 - **HTTP/2 with TLS**: Secure, always-open connection
 - **Interactive UI**: Start/stop streaming with live status updates
-- **Data visualization**: Displays timestamped values in real-time
+- **Data visualization**: Syncfusion Blazor Charts for real-time line charts
+- **Responsive design**: Bootstrap-based layout with live data table
 
 ## Prerequisites
 
 - .NET 9.0 SDK
 - HTTPS development certificate
+- Syncfusion Blazor Charts license (free community license available)
 
 ## Running the Application
 
@@ -47,12 +49,13 @@ RealTimeDashboard/
    cd DashboardApp
    dotnet run
    ```
-   The Blazor app will start on `https://localhost:5002` (or similar)
+   The Blazor app will start on `http://localhost:5011`
 
 3. **Access the dashboard**:
    - Navigate to the Blazor app URL
    - Click "Live Data" in the navigation menu
    - Click "Start" to begin streaming data
+   - View real-time charts and data table
 
 ## Architecture
 
@@ -62,10 +65,11 @@ RealTimeDashboard/
 - Generates random data points every 500ms (configurable)
 - Handles client disconnection gracefully
 
-### Blazor UI
+### Blazor UI with Syncfusion Charts
 - Connects to gRPC service via typed client
-- Displays real-time data points
-- Provides start/stop controls
+- Displays real-time data in interactive line charts
+- Shows latest values in a scrollable table
+- Provides start/stop controls with status indicators
 - Updates UI automatically with each new data point
 
 ## Protocol Buffer Definition
@@ -86,9 +90,18 @@ message DataPoint {
 }
 ```
 
+## Chart Features
+
+- **Real-time line chart**: Updates automatically as new data arrives
+- **Time-based X-axis**: Shows timestamps in HH:mm:ss format
+- **Responsive design**: Adapts to different screen sizes
+- **Data markers**: Visual indicators for each data point
+- **Performance optimized**: Limits to 50 data points for smooth rendering
+
 ## Development Notes
 
 - The gRPC service generates random data for demonstration
-- Data points are limited to 100 items to prevent memory issues
+- Data points are limited to 50 items for optimal chart performance
 - The connection uses self-signed certificates for local development
-- Both projects target .NET 9.0 for latest features 
+- Both projects target .NET 9.0 for latest features
+- Syncfusion Blazor Charts provides professional-grade charting capabilities 

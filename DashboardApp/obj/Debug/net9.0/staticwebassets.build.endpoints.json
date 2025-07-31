@@ -301,6 +301,1239 @@
       ]
     },
     {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000191168037"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dfz0hg/1UReg7qGqKuJ9dPOX/BAKbCP0sCncmJaZiBA=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dfz0hg/1UReg7qGqKuJ9dPOX/BAKbCP0sCncmJaZiBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dfz0hg/1UReg7qGqKuJ9dPOX/BAKbCP0sCncmJaZiBA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000022295053"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rw+oY9aBWYPQH/axyr/0uMCSLpVN14F6Px5JXJK8Ay4=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rw+oY9aBWYPQH/axyr/0uMCSLpVN14F6Px5JXJK8Ay4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rw+oY9aBWYPQH/axyr/0uMCSLpVN14F6Px5JXJK8Ay4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000237135404"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"neqquIg8mf1ZOUv/1rXRpl8VC+hPlCNIaLLTR45t08o=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"neqquIg8mf1ZOUv/1rXRpl8VC+hPlCNIaLLTR45t08o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-neqquIg8mf1ZOUv/1rXRpl8VC+hPlCNIaLLTR45t08o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000235515780"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZtOOme470ZwvfcnPwjNcMomnXqgYpUvzjCofMI3FCDM=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZtOOme470ZwvfcnPwjNcMomnXqgYpUvzjCofMI3FCDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZtOOme470ZwvfcnPwjNcMomnXqgYpUvzjCofMI3FCDM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000204331835"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ly8ZXHHOBNoII7Cvb2YQ6RMUNsKm4GHEr8efRUk6zTA=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ly8ZXHHOBNoII7Cvb2YQ6RMUNsKm4GHEr8efRUk6zTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ly8ZXHHOBNoII7Cvb2YQ6RMUNsKm4GHEr8efRUk6zTA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081933634"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t/I34BIYBtdzjcfzLydaNEECw9F0VW1ZudUDHpqLeXk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t/I34BIYBtdzjcfzLydaNEECw9F0VW1ZudUDHpqLeXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t/I34BIYBtdzjcfzLydaNEECw9F0VW1ZudUDHpqLeXk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "238982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013159973"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4MK/wkz5k2RuwSMau92PNJzYahkVDbIFnQEJyZeloSI=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4MK/wkz5k2RuwSMau92PNJzYahkVDbIFnQEJyZeloSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4MK/wkz5k2RuwSMau92PNJzYahkVDbIFnQEJyZeloSI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3957643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000001214214"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "823577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cJSeK6B6V3VhJ3KUUqIEROPSwzrBihS8lqscMJZlkKU=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "823577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cJSeK6B6V3VhJ3KUUqIEROPSwzrBihS8lqscMJZlkKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cJSeK6B6V3VhJ3KUUqIEROPSwzrBihS8lqscMJZlkKU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Data/scripts/data.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Data/scripts/data.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Data/scripts/data.min.js",
+      "AssetFile": "_content/Syncfusion.Blazor.Data/scripts/data.min.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000043232026"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WlAenxw3aRRqscnK7DWvBjxTjGS+mvP9ydF+cukLOOU=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Data/scripts/data.min.js.gz",
+      "AssetFile": "_content/Syncfusion.Blazor.Data/scripts/data.min.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WlAenxw3aRRqscnK7DWvBjxTjGS+mvP9ydF+cukLOOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WlAenxw3aRRqscnK7DWvBjxTjGS+mvP9ydF+cukLOOU="
+        }
+      ]
+    },
+    {
       "Route": "app.css",
       "AssetFile": "app.css.gz",
       "Selectors": [

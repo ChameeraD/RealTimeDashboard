@@ -35,3 +35,4 @@
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.pdb
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.genruntimeconfig.cache
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/ref/DashboardGrpc.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.sourcelink.json

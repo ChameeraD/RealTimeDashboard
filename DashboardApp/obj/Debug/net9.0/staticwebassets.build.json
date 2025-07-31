@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zA8S9o56TaN3SVJTNYpNGOMD8u/Caf0SjIjUem9QzZw=",
+  "Hash": "HeHi2FqgQiTHZxMhbRzqrdVljcZwQLR/KKUMUHwPKYA=",
   "Source": "DashboardApp",
   "BasePath": "_content/DashboardApp",
   "Mode": "Default",
@@ -28,6 +28,195 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-accumulation-chart.min.js",
+      "SourceId": "Syncfusion.Blazor.Charts",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Charts",
+      "RelativePath": "scripts/sf-accumulation-chart.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "japyz6tbvv",
+      "Integrity": "ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-accumulation-chart.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-chart.min.js",
+      "SourceId": "Syncfusion.Blazor.Charts",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Charts",
+      "RelativePath": "scripts/sf-chart.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vy0t2tuaoh",
+      "Integrity": "2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-chart.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popup.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/popup.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ji11alwlkb",
+      "Integrity": "FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popup.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popupsbase.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/popupsbase.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ymw2hy93z1",
+      "Integrity": "utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popupsbase.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/sf-svg-export.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/sf-svg-export.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2oqt220j19",
+      "Integrity": "vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/sf-svg-export.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/svgbase.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/svgbase.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p8oihynruf",
+      "Integrity": "OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/svgbase.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor-base.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/syncfusion-blazor-base.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pc8aq1p4j2",
+      "Integrity": "NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor-base.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/syncfusion-blazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6p7p4jetme",
+      "Integrity": "xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.data/26.1.35/staticwebassets/scripts/data.min.js",
+      "SourceId": "Syncfusion.Blazor.Data",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.data/26.1.35/staticwebassets/",
+      "BasePath": "_content/Syncfusion.Blazor.Data",
+      "RelativePath": "scripts/data.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8u2xl9eper",
+      "Integrity": "YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.data/26.1.35/staticwebassets/scripts/data.min.js"
+    },
     {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/1crjicr04a-y7v9cxd14o.gz",
       "SourceId": "DashboardApp",
@@ -176,6 +365,27 @@
       "OriginalItemSpec": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/5h81voagx1-6p7p4jetme.gz",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/syncfusion-blazor.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "04yv6cuenf",
+      "Integrity": "cJSeK6B6V3VhJ3KUUqIEROPSwzrBihS8lqscMJZlkKU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor.min.js"
+    },
+    {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/5wfxvk9kzi-b7pk76d08c.gz",
       "SourceId": "DashboardApp",
       "SourceType": "Discovered",
@@ -195,6 +405,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/5wmhaphab1-vy0t2tuaoh.gz",
+      "SourceId": "Syncfusion.Blazor.Charts",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Charts",
+      "RelativePath": "scripts/sf-chart.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-chart.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "519gv06irz",
+      "Integrity": "Rw+oY9aBWYPQH/axyr/0uMCSLpVN14F6Px5JXJK8Ay4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-chart.min.js"
     },
     {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/662c3iw3oo-cosvhxvwiu.gz",
@@ -365,6 +596,27 @@
       "OriginalItemSpec": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/ckt86gem57-p8oihynruf.gz",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/svgbase.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/svgbase.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zhzopc0rdm",
+      "Integrity": "t/I34BIYBtdzjcfzLydaNEECw9F0VW1ZudUDHpqLeXk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/svgbase.min.js"
+    },
+    {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/cslj2fnriv-khv3u5hwcm.gz",
       "SourceId": "DashboardApp",
       "SourceType": "Discovered",
@@ -386,6 +638,27 @@
       "OriginalItemSpec": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/d77l2qy8cy-ji11alwlkb.gz",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/popup.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popup.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "h3q6dt6wqq",
+      "Integrity": "neqquIg8mf1ZOUv/1rXRpl8VC+hPlCNIaLLTR45t08o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popup.min.js"
+    },
+    {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/d9j2535rlb-46ein0sx1k.gz",
       "SourceId": "DashboardApp",
       "SourceType": "Discovered",
@@ -405,6 +678,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/dnwq9wk44u-pc8aq1p4j2.gz",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/syncfusion-blazor-base.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor-base.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "08o51ues14",
+      "Integrity": "4MK/wkz5k2RuwSMau92PNJzYahkVDbIFnQEJyZeloSI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor-base.min.js"
     },
     {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/dsxplwszui-s35ty4nyc5.gz",
@@ -575,6 +869,27 @@
       "OriginalItemSpec": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/idlbwfjf3e-2oqt220j19.gz",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/sf-svg-export.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/sf-svg-export.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7mxcmtdz9y",
+      "Integrity": "Ly8ZXHHOBNoII7Cvb2YQ6RMUNsKm4GHEr8efRUk6zTA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/sf-svg-export.min.js"
+    },
+    {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/iy9hwcag11-63fj8s7r0e.gz",
       "SourceId": "DashboardApp",
       "SourceType": "Discovered",
@@ -596,6 +911,27 @@
       "OriginalItemSpec": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/kg2ram854o-ymw2hy93z1.gz",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/popupsbase.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popupsbase.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "um73yej4hy",
+      "Integrity": "ZtOOme470ZwvfcnPwjNcMomnXqgYpUvzjCofMI3FCDM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popupsbase.min.js"
+    },
+    {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/l0anfsx5q0-0j3bgjxly4.gz",
       "SourceId": "DashboardApp",
       "SourceType": "Discovered",
@@ -615,6 +951,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/l38986f9ca-japyz6tbvv.gz",
+      "SourceId": "Syncfusion.Blazor.Charts",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Charts",
+      "RelativePath": "scripts/sf-accumulation-chart.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-accumulation-chart.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jw2dgdl0xs",
+      "Integrity": "Dfz0hg/1UReg7qGqKuJ9dPOX/BAKbCP0sCncmJaZiBA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-accumulation-chart.min.js"
+    },
+    {
+      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/lc6ok7c9tb-8u2xl9eper.gz",
+      "SourceId": "Syncfusion.Blazor.Data",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Syncfusion.Blazor.Data",
+      "RelativePath": "scripts/data.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.data/26.1.35/staticwebassets/scripts/data.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y27u5rumsk",
+      "Integrity": "WlAenxw3aRRqscnK7DWvBjxTjGS+mvP9ydF+cukLOOU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.data/26.1.35/staticwebassets/scripts/data.min.js"
     },
     {
       "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/lxt0bppkyx-vr1egmr9el.gz",
@@ -2025,6 +2403,1239 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-accumulation-chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/l38986f9ca-japyz6tbvv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000191168037"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5230"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dfz0hg/1UReg7qGqKuJ9dPOX/BAKbCP0sCncmJaZiBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ix9mdG+2Q0w4p4CmONewCySmWzo3iplG/1ofEx8VgNI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-accumulation-chart.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/l38986f9ca-japyz6tbvv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dfz0hg/1UReg7qGqKuJ9dPOX/BAKbCP0sCncmJaZiBA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dfz0hg/1UReg7qGqKuJ9dPOX/BAKbCP0sCncmJaZiBA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.charts/26.1.35/staticwebassets/scripts/sf-chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/5wmhaphab1-vy0t2tuaoh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000022295053"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44852"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rw+oY9aBWYPQH/axyr/0uMCSLpVN14F6Px5JXJK8Ay4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2R/FhLJIq46oFjaB/R86iNUkpWseU+vKhyHPIfsh3Bg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Charts/scripts/sf-chart.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/5wmhaphab1-vy0t2tuaoh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rw+oY9aBWYPQH/axyr/0uMCSLpVN14F6Px5JXJK8Ay4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rw+oY9aBWYPQH/axyr/0uMCSLpVN14F6Px5JXJK8Ay4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popup.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/d77l2qy8cy-ji11alwlkb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000237135404"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4216"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"neqquIg8mf1ZOUv/1rXRpl8VC+hPlCNIaLLTR45t08o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUSi2tu+Z7vaD+l2+eRo4773QdEZt1l7VWpEOwfIUGQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/d77l2qy8cy-ji11alwlkb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"neqquIg8mf1ZOUv/1rXRpl8VC+hPlCNIaLLTR45t08o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-neqquIg8mf1ZOUv/1rXRpl8VC+hPlCNIaLLTR45t08o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/popupsbase.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/kg2ram854o-ymw2hy93z1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000235515780"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4245"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZtOOme470ZwvfcnPwjNcMomnXqgYpUvzjCofMI3FCDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-utqoHm1OEvoJQR1F1GyBTP/nk1/FViiMlXfA7OaYf50="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/kg2ram854o-ymw2hy93z1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZtOOme470ZwvfcnPwjNcMomnXqgYpUvzjCofMI3FCDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZtOOme470ZwvfcnPwjNcMomnXqgYpUvzjCofMI3FCDM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/sf-svg-export.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/idlbwfjf3e-2oqt220j19.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000204331835"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4893"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ly8ZXHHOBNoII7Cvb2YQ6RMUNsKm4GHEr8efRUk6zTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vomuI6fBb6frJitynjL6zxAWB8tpAZkfqK/n9Tk0AkU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/idlbwfjf3e-2oqt220j19.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ly8ZXHHOBNoII7Cvb2YQ6RMUNsKm4GHEr8efRUk6zTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ly8ZXHHOBNoII7Cvb2YQ6RMUNsKm4GHEr8efRUk6zTA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/svgbase.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/ckt86gem57-p8oihynruf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081933634"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12204"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t/I34BIYBtdzjcfzLydaNEECw9F0VW1ZudUDHpqLeXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OfRPealSFFMNr7icVP6reEvDZ7vFzD9LQQ4ea3LO6z8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/ckt86gem57-p8oihynruf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t/I34BIYBtdzjcfzLydaNEECw9F0VW1ZudUDHpqLeXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t/I34BIYBtdzjcfzLydaNEECw9F0VW1ZudUDHpqLeXk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor-base.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "238982"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/dnwq9wk44u-pc8aq1p4j2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013159973"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75987"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4MK/wkz5k2RuwSMau92PNJzYahkVDbIFnQEJyZeloSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NylnFAozN7TfA+PzPGbX0LNiUhysjjaSeMe3gcguJA4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/dnwq9wk44u-pc8aq1p4j2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4MK/wkz5k2RuwSMau92PNJzYahkVDbIFnQEJyZeloSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4MK/wkz5k2RuwSMau92PNJzYahkVDbIFnQEJyZeloSI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.core/26.1.35/staticwebassets/scripts/syncfusion-blazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3957643"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/5h81voagx1-6p7p4jetme.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000001214214"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "823577"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cJSeK6B6V3VhJ3KUUqIEROPSwzrBihS8lqscMJZlkKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjx/DNIrgLSN15mPw81I9iah35ykO2E11ABIjjCDnn4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/5h81voagx1-6p7p4jetme.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "823577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cJSeK6B6V3VhJ3KUUqIEROPSwzrBihS8lqscMJZlkKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cJSeK6B6V3VhJ3KUUqIEROPSwzrBihS8lqscMJZlkKU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Data/scripts/data.min.js",
+      "AssetFile": "/Users/chameeradulanga/.nuget/packages/syncfusion.blazor.data/26.1.35/staticwebassets/scripts/data.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Data/scripts/data.min.js",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/lc6ok7c9tb-8u2xl9eper.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000043232026"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23130"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WlAenxw3aRRqscnK7DWvBjxTjGS+mvP9ydF+cukLOOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YFqdpTAZYGOWb353EEzHDSsMPcZCNr2lbA6skKJN5xs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Data/scripts/data.min.js.gz",
+      "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/lc6ok7c9tb-8u2xl9eper.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WlAenxw3aRRqscnK7DWvBjxTjGS+mvP9ydF+cukLOOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Jun 2024 15:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WlAenxw3aRRqscnK7DWvBjxTjGS+mvP9ydF+cukLOOU="
+        }
+      ]
+    },
     {
       "Route": "app.css",
       "AssetFile": "/Users/chameeradulanga/RealTimeDashboard/DashboardApp/obj/Debug/net9.0/compressed/s7vzjsaayz-w7mf952350.gz",
