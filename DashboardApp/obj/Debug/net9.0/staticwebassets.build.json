@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "HeHi2FqgQiTHZxMhbRzqrdVljcZwQLR/KKUMUHwPKYA=",
+  "Hash": "FnDZUwPIj+sw0IT/uZjgvIrLHjl28XfmdIADAYlAUXI=",
   "Source": "DashboardApp",
   "BasePath": "_content/DashboardApp",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/DashboardGrpc.csproj",
-      "Version": 2,
-      "Source": "DashboardGrpc",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "DashboardApp/wwwroot",
@@ -3959,7 +3947,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4012,7 +4000,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4049,7 +4037,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4096,7 +4084,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4149,7 +4137,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4186,7 +4174,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4233,7 +4221,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4294,7 +4282,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4339,7 +4327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4394,7 +4382,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4455,7 +4443,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4500,7 +4488,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 31 Jul 2025 02:44:07 GMT"
+          "Value": "Sun, 24 Aug 2025 17:28:18 GMT"
         },
         {
           "Name": "Cache-Control",

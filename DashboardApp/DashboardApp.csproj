@@ -6,9 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DashboardGrpc\DashboardGrpc.csproj" />
-  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Grpc.Net.Client" Version="2.71.0" />
@@ -17,13 +15,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Grpc.AspNetCore.Server.ClientFactory" Version="2.64.0" />
     <PackageReference Include="Syncfusion.Blazor.Charts" Version="25.2.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\DashboardGrpc\Protos\dashboard.proto" GrpcServices="Client">
-      <Link>Protos\dashboard.proto</Link>
-    </Protobuf>
+    <Protobuf Include="Protos\dashboard.proto" GrpcServices="Client" />
   </ItemGroup>
 
 </Project>

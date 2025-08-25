@@ -26,11 +26,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/DashboardGrpc.csproj": {
-                "projectPath": "/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/DashboardGrpc.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -53,6 +49,10 @@
               "target": "Package",
               "version": "[3.28.0, )"
             },
+            "Grpc.AspNetCore.Server.ClientFactory": {
+              "target": "Package",
+              "version": "[2.64.0, )"
+            },
             "Grpc.Net.Client": {
               "target": "Package",
               "version": "[2.71.0, )"
@@ -63,78 +63,13 @@
               "target": "Package",
               "version": "[2.64.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Syncfusion.Blazor.Charts": {
               "target": "Package",
               "version": "[25.2.8, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.7/libexec/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/DashboardGrpc.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/DashboardGrpc.csproj",
-        "projectName": "DashboardGrpc",
-        "projectPath": "/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/DashboardGrpc.csproj",
-        "packagesPath": "/Users/chameeradulanga/.nuget/packages/",
-        "outputPath": "/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/chameeradulanga/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net9.0"
-        ],
-        "sources": {
-          "/opt/homebrew/Cellar/dotnet/9.0.7/libexec/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "dependencies": {
-            "Grpc.AspNetCore": {
-              "target": "Package",
-              "version": "[2.64.0, )"
             }
           },
           "imports": [

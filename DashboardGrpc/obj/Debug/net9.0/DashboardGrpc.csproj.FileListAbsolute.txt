@@ -1,9 +1,3 @@
-/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.csproj.AssemblyReference.cache
-/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.GeneratedMSBuildEditorConfig.editorconfig
-/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.AssemblyInfoInputs.cache
-/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.AssemblyInfo.cs
-/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.csproj.CoreCompileInputs.cache
-/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.MvcApplicationPartsAssemblyInfo.cache
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/appsettings.Development.json
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/appsettings.json
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/DashboardGrpc.staticwebassets.endpoints.json
@@ -19,6 +13,21 @@
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Grpc.Net.Client.dll
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Grpc.Net.ClientFactory.dll
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Grpc.Net.Common.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.csproj.AssemblyReference.cache
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.AssemblyInfoInputs.cache
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.AssemblyInfo.cs
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.csproj.CoreCompileInputs.cache
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.MvcApplicationPartsAssemblyInfo.cache
+/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.sourcelink.json
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/scopedcss/bundle/DashboardGrpc.styles.css
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/staticwebassets.build.json
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/staticwebassets.development.json
@@ -35,4 +44,3 @@
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.pdb
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.genruntimeconfig.cache
 /Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/ref/DashboardGrpc.dll
-/Users/chameeradulanga/RealTimeDashboard/DashboardGrpc/obj/Debug/net9.0/DashboardGrpc.sourcelink.json

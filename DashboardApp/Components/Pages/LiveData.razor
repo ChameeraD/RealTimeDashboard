@@ -1,44 +1,121 @@
 @page "/live"
+@rendermode InteractiveServer
 @using Dashboard
 @inject DashboardService.DashboardServiceClient Grpc
+@inject ILogger<LiveData> Logger
+@inject IHttpClientFactory HttpClientFactory
 
 <h3>Real-Time Dashboard</h3>
 
-<button @onclick="StartStream" disabled="@isStreaming" class="btn btn-primary me-2">Start</button>
-<button @onclick="StopStream" disabled="!isStreaming" class="btn btn-secondary">Stop</button>
+<div class="row mb-3">
+    <div class="col-md-6">
+        <button @onclick="StartStream" disabled="@isStreaming" class="btn btn-primary me-2">
+            <i class="bi bi-play-circle"></i> Start
+        </button>
+        <button @onclick="StopStream" class="btn btn-secondary">
+            <i class="bi bi-stop-circle"></i> Stop
+        </button>
+    </div>
+    <div class="col-md-6">
+        <div class="d-flex justify-content-end">
+            <span class="badge bg-@(GetStatusColor()) fs-6">@status</span>
+        </div>
+    </div>
+</div>
 
-<p class="mt-3">Status: <span class="badge bg-@(status == "Streaming" ? "success" : status == "Connecting…" ? "warning" : "secondary")">@status</span></p>
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="bi bi-exclamation-triangle"></i> @errorMessage
+        <button type="button" class="btn-close" @onclick="() => errorMessage = string.Empty"></button>
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="bi bi-check-circle"></i> @successMessage
+        <button type="button" class="btn-close" @onclick="() => successMessage = string.Empty"></button>
+    </div>
+}
 
 <div class="row mt-4">
     <div class="col-md-8">
-        <SfChart @ref="chart" Title="Real-Time Data Stream">
-            <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.DateTime">
-                <ChartAxisLabelStyle Format="HH:mm:ss"></ChartAxisLabelStyle>
-            </ChartPrimaryXAxis>
-            <ChartPrimaryYAxis>
-                <ChartAxisLabelStyle Format="N2"></ChartAxisLabelStyle>
-            </ChartPrimaryYAxis>
-            <ChartSeriesCollection>
-                <ChartSeries DataSource="@chartData" XName="Timestamp" YName="Value" Type="ChartSeriesType.Line">
-                </ChartSeries>
-            </ChartSeriesCollection>
-        </SfChart>
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Real-Time Data Stream</h5>
+                <small class="text-muted">Last update: @lastUpdateTime</small>
+            </div>
+            <div class="card-body">
+                @if (chartData.Any())
+                {
+                    <SfChart @ref="chart" Title="Real-Time Data Stream">
+                        <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.DateTime" LabelFormat="HH:mm:ss">
+                        </ChartPrimaryXAxis>
+                        <ChartPrimaryYAxis LabelFormat="N2">
+                        </ChartPrimaryYAxis>
+                        <ChartSeriesCollection>
+                            <ChartSeries DataSource="@chartData" XName="Timestamp" YName="Value" Type="ChartSeriesType.Line">
+                            </ChartSeries>
+                        </ChartSeriesCollection>
+                    </SfChart>
+                }
+                else
+                {
+                    <div class="text-center text-muted py-5">
+                        <i class="bi bi-graph-up fs-1"></i>
+                        <p class="mt-3">No data available. Start streaming to see the chart.</p>
+                    </div>
+                }
+            </div>
+        </div>
     </div>
     <div class="col-md-4">
         <div class="card">
             <div class="card-header">
                 <h5>Latest Values</h5>
+                <small class="text-muted">Showing last 10 data points</small>
             </div>
             <div class="card-body" style="max-height: 400px; overflow-y: auto;">
-                <ul class="list-group list-group-flush">
-                    @foreach (var p in points.TakeLast(10).Reverse())
-                    {
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            <small>@DateTimeOffset.FromUnixTimeMilliseconds(p.Timestamp).ToString("HH:mm:ss")</small>
-                            <span class="badge bg-primary rounded-pill">@p.Value.ToString("F2")</span>
-                        </li>
-                    }
-                </ul>
+                @if (points.Any())
+                {
+                    <ul class="list-group list-group-flush">
+                        @foreach (var p in points.TakeLast(10).Reverse())
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <small>@DateTimeOffset.FromUnixTimeMilliseconds(p.Timestamp).ToString("HH:mm:ss")</small>
+                                <span class="badge bg-primary rounded-pill">@p.Value.ToString("F2")</span>
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <div class="text-center text-muted py-3">
+                        <i class="bi bi-list-ul"></i>
+                        <p class="mt-2">No data points yet</p>
+                    </div>
+                }
+            </div>
+        </div>
+        
+        <div class="card mt-3">
+            <div class="card-header">
+                <h6>Connection Statistics</h6>
+            </div>
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-6">
+                        <div class="border-end">
+                            <h4 class="text-primary">@totalMessages</h4>
+                            <small class="text-muted">Messages</small>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="text-success">@connectionUptime</h4>
+                        <small class="text-muted">Uptime</small>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -50,6 +127,12 @@
     private CancellationTokenSource? cts;
     private bool isStreaming;
     private string status = "Idle";
+    private string errorMessage = string.Empty;
+    private string successMessage = string.Empty;
+    private string lastUpdateTime = "Never";
+    private int totalMessages = 0;
+    private TimeSpan connectionUptime = TimeSpan.Zero;
+    private DateTime? streamStartTime;
     private SfChart? chart;
 
     public class ChartDataPoint
@@ -58,79 +141,208 @@
         public double Value { get; set; }
     }
 
+    protected override void OnInitialized()
+    {
+        // Start a timer to update connection uptime
+        var timer = new System.Threading.Timer(_ =>
+        {
+            if (streamStartTime.HasValue && isStreaming)
+            {
+                connectionUptime = DateTime.UtcNow - streamStartTime.Value;
+                InvokeAsync(StateHasChanged);
+            }
+        }, null, TimeSpan.Zero, TimeSpan.FromSeconds(1));
+    }
+
+    private string GetStatusColor()
+    {
+        return status switch
+        {
+            "Streaming" => "success",
+            "Connecting…" => "warning",
+            "Error" => "danger",
+            "Stopped" => "secondary",
+            _ => "secondary"
+        };
+    }
+
+
+
     // Automatic reconnect with exponential back-off
     private async Task RunWithRetry(Func<CancellationToken, Task> work, CancellationToken token)
     {
         var delay = TimeSpan.FromSeconds(1);
+        var maxDelay = TimeSpan.FromSeconds(30);
+        var attempt = 0;
 
         while (!token.IsCancellationRequested)
         {
             try
             {
+                attempt++;
+                Logger.LogInformation("Attempting to connect (attempt {Attempt})", attempt);
+                
                 await work(token);
                 return;
             }
-            catch
+            catch (global::Grpc.Core.RpcException ex) when (ex.Status.StatusCode == global::Grpc.Core.StatusCode.PermissionDenied)
             {
-                await Task.Delay(delay, token);
-                delay = TimeSpan.FromSeconds(Math.Min(delay.TotalSeconds * 2, 30));
+                errorMessage = "Authentication failed. Please check your credentials.";
+                Logger.LogError(ex, "Authentication failed on attempt {Attempt}", attempt);
+                throw;
             }
+            catch (global::Grpc.Core.RpcException ex) when (ex.Status.StatusCode == global::Grpc.Core.StatusCode.Cancelled)
+            {
+                // This is an intentional cancellation (Stop button clicked)
+                Logger.LogInformation("Stream was intentionally cancelled via gRPC");
+                throw;
+            }
+            catch (global::Grpc.Core.RpcException ex) when (ex.Status.StatusCode == global::Grpc.Core.StatusCode.Unavailable)
+            {
+                errorMessage = "gRPC server is unavailable. Retrying...";
+                Logger.LogWarning(ex, "Server unavailable on attempt {Attempt}, retrying in {Delay}", attempt, delay);
+                
+                if (attempt >= 5)
+                {
+                    errorMessage = "Failed to connect after 5 attempts. Please check if the gRPC server is running.";
+                    throw;
+                }
+            }
+            catch (OperationCanceledException) when (token.IsCancellationRequested)
+            {
+                // This is an intentional cancellation (Stop button clicked)
+                Logger.LogInformation("Stream was intentionally cancelled");
+                throw;
+            }
+            catch (Exception ex)
+            {
+                errorMessage = $"Connection error: {ex.Message}. Retrying...";
+                Logger.LogError(ex, "Connection error on attempt {Attempt}, retrying in {Delay}", attempt, delay);
+                
+                if (attempt >= 5)
+                {
+                    errorMessage = "Failed to connect after 5 attempts. Please check your connection.";
+                    throw;
+                }
+            }
+
+            await Task.Delay(delay, token);
+            delay = TimeSpan.FromSeconds(Math.Min(delay.TotalSeconds * 2, maxDelay.TotalSeconds));
         }
     }
 
     private async Task StartStream()
     {
-        isStreaming = true;
-        status = "Connecting…";
-        cts = new CancellationTokenSource();
-
-        // Use the retry helper for robust connection
-        await RunWithRetry(async (token) =>
+        try
         {
-            var request = new Subscription { SourceId = "sensor-1", IntervalMs = 500 };
-            using var call = Grpc.Subscribe(request, cancellationToken: token);
+            errorMessage = string.Empty;
+            successMessage = "Start button clicked!";
+            StateHasChanged();
+            await Task.Delay(100); // Give UI time to update
+            
+            isStreaming = true;
+            status = "Connecting…";
+            successMessage = string.Empty;
+            streamStartTime = DateTime.UtcNow;
+            connectionUptime = TimeSpan.Zero;
+            totalMessages = 0;
+            cts = new CancellationTokenSource();
+            
+            StateHasChanged(); // Ensure UI updates immediately when streaming starts
 
-            status = "Streaming";
-            try
+            Logger.LogInformation("Starting gRPC stream");
+
+            // Use the retry helper for robust connection
+            await RunWithRetry(async (token) =>
             {
-                var responseStream = call.ResponseStream;
-                while (await responseStream.MoveNext(token))
+                var request = new Subscription { SourceId = "sensor-1", IntervalMs = 500 };
+                using var call = Grpc.Subscribe(request, cancellationToken: token);
+
+                status = "Streaming";
+                successMessage = "Successfully connected to gRPC stream";
+                Logger.LogInformation("gRPC stream established successfully");
+                StateHasChanged(); // Update UI when stream is established
+
+                try
                 {
-                    var dp = responseStream.Current;
-                    points.Add(dp);
-                    
-                    // Add to chart data
-                    chartData.Add(new ChartDataPoint
+                    var responseStream = call.ResponseStream;
+                    while (await responseStream.MoveNext(token))
                     {
-                        Timestamp = DateTimeOffset.FromUnixTimeMilliseconds(dp.Timestamp).DateTime,
-                        Value = dp.Value
-                    });
+                        var dp = responseStream.Current;
+                        points.Add(dp);
+                        
+                        // Add to chart data
+                        chartData.Add(new ChartDataPoint
+                        {
+                            Timestamp = DateTimeOffset.FromUnixTimeMilliseconds(dp.Timestamp).DateTime,
+                            Value = dp.Value
+                        });
 
-                    // Keep only last 50 points for performance
-                    if (points.Count > 50)
-                    {
-                        points.RemoveAt(0);
-                        chartData.RemoveAt(0);
+                        // Keep only last 50 points for performance
+                        if (points.Count > 100)
+                        {
+                            points.RemoveAt(0);
+                            chartData.RemoveAt(0);
+                        }
+
+                        totalMessages++;
+                        lastUpdateTime = DateTime.Now.ToString("HH:mm:ss");
+                        StateHasChanged();
                     }
-
-                    StateHasChanged();
                 }
-            }
-            catch (OperationCanceledException)
-            {
-                // Stream was canceled by StopStream
-                throw;
-            }
-            finally
+                catch (OperationCanceledException)
+                {
+                    // Stream was canceled by StopStream
+                    Logger.LogInformation("Stream was cancelled");
+                    throw;
+                }
+                
+                // Stream completed normally
+                Logger.LogInformation("Stream ended after {Count} messages", totalMessages);
+            }, cts.Token);
+        }
+        catch (global::Grpc.Core.RpcException ex) when (ex.Status.StatusCode == global::Grpc.Core.StatusCode.Cancelled && cts?.Token.IsCancellationRequested == true)
+        {
+            // User clicked Stop button - this is normal
+            isStreaming = false;
+            status = "Stopped";
+            successMessage = "Stream stopped successfully";
+            Logger.LogInformation("Stream stopped by user via gRPC cancellation");
+        }
+        catch (OperationCanceledException) when (cts?.Token.IsCancellationRequested == true)
+        {
+            // User clicked Stop button - this is normal
+            isStreaming = false;
+            status = "Stopped";
+            successMessage = "Stream stopped successfully";
+            Logger.LogInformation("Stream stopped by user");
+        }
+        catch (Exception ex)
+        {
+            isStreaming = false;
+            status = "Error";
+            errorMessage = $"Failed to start stream: {ex.Message}";
+            Logger.LogError(ex, "Failed to start gRPC stream");
+        }
+        finally
+        {
+            // Ensure the streaming state is reset when the method exits
+            if (isStreaming)
             {
                 isStreaming = false;
                 status = "Stopped";
             }
-        }, cts.Token);
+        }
+        
+        StateHasChanged();
     }
 
     private void StopStream()
     {
+        isStreaming = false;
+        status = "Stopping...";
         cts?.Cancel();
+        Logger.LogInformation("Stream stop requested");
+        StateHasChanged();
     }
 }
